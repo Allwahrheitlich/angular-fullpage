@@ -12,7 +12,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/alvarotrigo/angular-fullpage",
+  "homepage": "https://github.com/Allwahrheitlich/angular-fullpage",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alvarotrigo/angular-fullpage"
+    "url": "https://github.com/Allwahrheitlich/angular-fullpage"
   },
   "private": false,
   "dependencies": {
@@ -41,7 +41,7 @@
     "@angular/platform-browser-dynamic": "^6.1.10",
     "@angular/router": "^6.1.10",
     "core-js": "^2.5.4",
-    "fullpage.js": "https://github.com/Allwahrheitlich/fullPage.js",
+    "fullpage.js": "git+https://github.com/Allwahrheitlich/fullPage.js.git",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
