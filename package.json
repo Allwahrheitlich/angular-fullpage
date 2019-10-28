@@ -19,8 +19,6 @@
     "post-build": "cpx README.md dist/@fullpage/angular-fullpage",
     "build": "ng build angular-fullpage && npm run post-build",
     "build:example": "ng build",
-    "prepack": "[ ! -f .buildme ] || npm run build",
-    "preinstall": "[ ! -f .buildme ] || npm run build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -41,7 +39,7 @@
     "@angular/platform-browser-dynamic": "^6.1.10",
     "@angular/router": "^6.1.10",
     "core-js": "^2.5.4",
-    "fullpage.js": "git+https://github.com/Allwahrheitlich/fullPage.js.git",
+    "fullpage.js": "https://github.com/Allwahrheitlich/fullPage.js",
     "rxjs": "~6.2.0",
     "zone.js": "~0.8.26"
   },
