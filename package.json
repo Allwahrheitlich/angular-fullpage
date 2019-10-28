@@ -19,7 +19,8 @@
     "post-build": "cpx README.md dist/@fullpage/angular-fullpage",
     "build": "ng build angular-fullpage && npm run post-build",
     "build:example": "ng build",
-    "prepare": "npm run build",
+    "prepack": "[ ! -f .buildme ] || npm run build",
+    "preinstall": "[ ! -f .buildme ] || npm run build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
