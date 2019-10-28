@@ -8,7 +8,7 @@
     "alvarotrigo"
   ],
   "license": "GPL-3.0",
-  "main": "dist/@fullpage/angular-fullpage",
+  "main": "dist/@fullpage/angular-fullpage",ng 
   "files": [
     "dist"
   ],
